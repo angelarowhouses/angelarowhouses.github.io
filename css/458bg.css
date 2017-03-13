@@ -1,0 +1,42 @@
+#intro {
+  position: relative;
+  height: 50%;
+}
+#intro .item {
+  height: 50%;
+  background: url('../img/big/458big.jpg') center center no-repeat !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-backface-visibility: hidden;
+}
+
+#references-masonry {
+  margin: 0 15px;
+  visibility: visible;
+}
+@media (max-width: 991px) {
+  #references-masonry {
+    margin: 0 auto;
+  }
+}
+.reference-item {
+  width: auto !important;
+ 
+}
+@media (max-width: 1199px) {
+  .reference-item {
+    width: auto !important;
+  }
+}
+@media (max-width: 991px) {
+  .reference-item {
+    width: auto !important;
+  }
+}
+@media (max-width: 350px) {
+  .reference-item {
+    width: auto !important;
+  }
+}
