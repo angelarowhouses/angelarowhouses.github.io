@@ -198,6 +198,7 @@ INTRO
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-backface-visibility: hidden;
+  text-shadow: 2px 0px 3px #000, -1px -1px #000, 1px 1px #000;
 }
 @media (max-width: 991px) {
   #intro .item h1 {
@@ -216,6 +217,7 @@ INTRO
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-backface-visibility: hidden;
+  text-shadow: 2px 0px 3px #000, -1px -1px #000, 1px 1px #000;
 }
 @media (max-width: 767px) {
   #intro .item h2 {
